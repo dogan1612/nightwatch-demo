@@ -1,0 +1,17 @@
+{
+  "name": "nightwatch-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "test:basic" : "nightwatch tests/specs/basic --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^104.0.0",
+    "nightwatch": "^2.3.0"
+  }
+}
